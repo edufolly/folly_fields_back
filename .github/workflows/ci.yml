@@ -4,7 +4,7 @@ name: Quarkus Native CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
