@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Checkout the code
         uses: actions/checkout@v2
-      - name: Build native executable and upload it as an artifact
+      - name: Build native executable
         uses: edufolly/quarkus-native-build-docker-action@master
         with:
           outputName: myapp-runner
